@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Vídeo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .video-container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        video {
+            width: 320px;
+            height: 240px;
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Filmes em MP4</h1>
+    <div class="video-container">
+        <video controls>
+            <source src="filme1.mp4" type="video/mp4">
+            Seu navegador não suporta o formato MP4.
+        </video>
+
+        <video controls>
+            <source src="filme2.mp4" type="video/mp4">
+            Seu navegador não suporta o formato MP4.
+        </video>
+
+        <video controls>
+            <source src="filme3.mp4" type="video/mp4">
+            Seu navegador não suporta o formato MP4.
+        </video>
+    </div>
+
+</body>
+</html>
